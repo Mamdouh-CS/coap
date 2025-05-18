@@ -29,7 +29,7 @@ Install dependencies:
 pip install twisted
 pip install pycryptodome
 ```
-## 🚀 How to Run Non Secure 
+## 🚀 How to Run 
 
 ### 1. Start the CoAP Server
 
@@ -58,7 +58,14 @@ python2 coapclient-well.py
 python2 coapclient_observe.py
 ```
 
+## Adding Security To Coap
+To strengthen access control and ensure confidentiality in Constrained Application Protocol
+(CoAP) communications, two security mechanisms have been implemented: authentication
+using a shared token and payload encryption using the Advanced Encryption Standard (AES).
+
 ## 🚀 How to Run Secure 
+
+
 
 ### 1. Start the CoAP Server
 
