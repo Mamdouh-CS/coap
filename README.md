@@ -1,4 +1,4 @@
-# 🔐 Secure CoAP Communication System for IoT (Token + AES Encryption)
+# 🔐 Implementation and Analysis of a CoAP-Based IoT Communication System
 
 This project demonstrates a secure Constrained Application Protocol (CoAP) communication system tailored for IoT environments. It uses token-based authentication and AES encryption to ensure basic access control and data confidentiality over UDP.
 
@@ -73,6 +73,20 @@ python2 encrypt-coapserver.py
 Open a terminal and run:
 
 ```bash
-python2 encrypt-coapcient.py```
+python2 encrypt-coapcient.py
+```
+
+## ✅ Conclusion
+
+This project demonstrates a lightweight, secure CoAP-based communication system tailored for IoT environments. By leveraging the `txThings` library along with Twisted and PyCrypto, the system enables efficient resource access and observation over UDP.
+
+Key features include:
+- Implementation of a CoAP server capable of handling multiple resources (`/counter`, `/time`, `.well-known/core`)
+- Python-based CoAP clients for querying and observing server resources
+- AES encryption and token-based authentication for payload security
+- Full communication and traffic analysis using Wireshark
+
+The system runs successfully on both Linux virtual machines, proving its suitability for constrained environments where low-power, secure communication is essential.
+
 
 
