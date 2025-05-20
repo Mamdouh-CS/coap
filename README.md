@@ -2,7 +2,6 @@
 
 This project demonstrates a secure Constrained Application Protocol (CoAP) communication system tailored for IoT environments. It uses token-based authentication and AES encryption to ensure basic access control and data confidentiality over UDP.
 
----
 
 ## 📦 Features
 
